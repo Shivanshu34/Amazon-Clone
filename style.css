@@ -1,0 +1,381 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border : border-box;
+}
+
+.nav
+{
+    height : 60px;
+    width : 100%;
+    background-color: #0f1111;
+    display : flex;
+    justify-content: space-between;
+    align-items : center;
+}
+
+.border:hover{
+    border : 1px solid white;
+}
+
+.amazon_logo{
+    height : 55px;
+    width : 113px;
+    /* margin-left : -35px; */
+}
+
+.deliver{
+    height : 50px;
+    width : 88px;
+    color : white;
+    margin-left: 20px;
+}
+
+.deliverD{
+    font-size: 0.75rem;
+    color : #cccccc;
+    margin-left : 15px;
+    margin-top : 9px;
+}
+
+.logoP
+{
+    font-size: 0.94rem;
+    margin-left : 3px;
+}
+
+.deliver2
+{
+    display : flex;
+}
+
+.third{
+    display : flex;
+    height : 50px;
+    width : 50%;
+    justify-content : center;
+    align-items : center;
+}
+
+.third select{
+    height : 40px;
+    width : 7%;
+    color : #0f1111;
+    background-color: #ffffffb3;
+    text-align : center;
+    border : none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.third input{
+    height : 40px;
+    width : 85%;
+    color : #0f1111;
+    background-color: #ffffff;
+    border : none;
+    padding-left: 7px;
+}
+
+.third i{
+    height : 40px;
+    width : 7%;
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    background-color: rgb(255, 199, 95);
+    border : none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    opacity : 0.9; 
+}
+
+.fourth{
+    height : 50px;
+    width : 140px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fourth-1{
+    font-size: 0.75rem;
+    color : #cccccc;
+    margin-left : -34px;
+}
+
+.fourth-2{
+    font-size : 0.9rem;
+    color : #fff;
+    font-weight: bolder;
+}
+
+.fifth{
+    height : 50px;
+    width : 120px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fifth-1{
+    font-size: 0.75rem;
+    color : #cccccc;
+    margin-left : -18px;
+}
+
+.fifth-2{
+    font-size : 0.9rem;
+    color : #fff;
+    font-weight: bolder;
+}
+
+.sixth{
+    height : 50px;
+    width : 120px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth i{
+    height : 50px;
+    width : 70px;
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    color:white;
+    border : none;
+    font-size : 30px;
+}
+
+.sixth p {
+    color : #fff;
+    font-weight: bolder;
+    margin-left : -15px;
+    margin-top : 7px;
+}
+
+.panel{
+    height : 40px;
+    width : 100%;
+    background-color: #222f3d;
+}
+
+.panel-1{
+    height : 40px;
+    width : 44%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.panel-i{
+    height : 30px;
+    width : 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color : white;
+    font-size : 22px;
+}
+
+.panel-i p{
+    font-size : 14.6px;
+    padding-left: 5px;
+    font-weight : 400;
+}
+
+.panel-2{
+    height : 30px;
+    color : white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 0 4px;
+    opacity : 0.9;
+    font-size : 13.6px;
+}
+
+.hero-sec-1{
+    height : 500px;
+    width : 100%;
+}
+
+.hero-sec-2{
+    height : 500px;
+    width : 100%;
+    background: url("hero-sec.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-p{
+    height : 40px;
+    width : 95%;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    font-size : 14px;
+    background-color : white;
+    position : absolute;
+    bottom : 200px;
+    color : #0f1111;
+    opacity : 0.8;
+}
+
+.hero-p a{
+    color : #007185;
+    opacity : 0.9;
+}
+
+.boxes
+{
+    height : 1000px;
+    width : 100%;
+    background-color: #37475a;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 20px;
+}
+
+.box1{
+    height : 480px;
+    display: flex;
+    background-color: white;
+    margin-left : 12px;
+    margin-right : 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background: url("box1_image.jpg"); */
+    /* border : 2px solid black; */
+}
+
+.box1 h2, .box1 p{
+    height : 20px;
+    width : 100%;
+    padding-left: 15px;
+    color : #37475a;
+}
+
+.box1 p{
+    color : #007185;
+}
+
+.box1-i{
+    height : 380px;
+    width : 90%;
+    background: url("box1_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box2-i{
+    height : 380px;
+    width : 90%;
+    background: url("box2_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box3-i{
+    height : 380px;
+    width : 90%;
+    background: url("box3_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box4-i{
+    height : 380px;
+    width : 90%;
+    background: url("box4_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box5-i{
+    height : 380px;
+    width : 90%;
+    background: url("box5_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box6-i{
+    height : 380px;
+    width : 90%;
+    background: url("box6_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box7-i{
+    height : 380px;
+    width : 90%;
+    background: url("box7_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box8-i{
+    height : 380px;
+    width : 90%;
+    background: url("box8_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foot1{
+    height : 50px;
+    width : 100%;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475a;
+    color: white;
+    opacity: 0.9;
+    position: absolute;
+    top : 1630px;
+}
+
+.foot2{
+    height : 300px;
+    width : 100%;
+    background-color: #222f3d;
+    position: absolute;
+    top : 1680px;
+    display: flex;
+    color : white;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.6px solid white;
+}
+
+.foot2 p{
+    font-size: 0.85rem;
+    opacity: 0.8;
+    line-height : 35px;
+}
+
+.foot2 h3{
+    opacity : 1;
+}
+
+.foot3{
+    height : 60px;
+    width : 100%;
+    background-color: #222f3d;
+    position : absolute;
+    top : 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
